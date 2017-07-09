@@ -1,0 +1,4 @@
+#Mon Jul 10 03:21:24 KST 2017
+base.0=/Users/leejaebeom/Dropbox/Developer/kotlin/study_2/app/build/intermediates/transforms/dexMerger/debug/12
+renamed.0=classes.dex
+file.0=/Users/leejaebeom/Dropbox/Developer/kotlin/study_2/app/build/intermediates/transforms/dexMerger/debug/12/classes.dex
