@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
     )
 
     lateinit var list :RecyclerView
+    lateinit var forecastResult :ForecastResult
     override fun onCreate(savedInstanceState: Bundle?) {
         val appKey ="cfef6258-e444-39c9-9eb8-862eedc1e87b"
         val version = 1
@@ -38,11 +39,14 @@ class MainActivity : AppCompatActivity() {
 
 
         doAsync() {
-            Request(url).run()
-            uiThread { longToast("Request performed") }
+            forecastResult = Request(url).run()
+            uiThread {
+                longToast("Request performed")
+                list = findViewById(R.id.main_list) as RecyclerView
+                list.layoutManager = LinearLayoutManager(this@MainActivity)
+                list.adapter = ForecastListAdapter(forecastResult, this@MainActivity)
+            }
         }
-        list = findViewById(R.id.main_list) as RecyclerView
-        list.layoutManager = LinearLayoutManager(this)
-        list.adapter = ForecastListAdapter(items)
+
     }
 }

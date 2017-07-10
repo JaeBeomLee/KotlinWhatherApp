@@ -5,9 +5,8 @@
     build-mode="COLD"
     density="420dpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
     plugin-version="3.0.0-alpha5"
-    timestamp="1499625209072"
+    timestamp="1499673733665"
     token="-2563576571193737477"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -19,21 +18,20 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="18" />
+        duration="0" />
     <task
         name="verifier"
-        duration="3" />
-
-    <artifact
-        location="/Users/leejaebeom/Dropbox/Developer/kotlin/study_2/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-        type="SPLIT" />
+        duration="0" />
 
     <build
         build-mode="FULL"
-        timestamp="1499619150730"
+        timestamp="1499673527083"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/leejaebeom/Dropbox/Developer/kotlin/study_2/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="/Users/leejaebeom/Dropbox/Developer/kotlin/study_2/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/leejaebeom/Dropbox/Developer/kotlin/study_2/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
             location="/Users/leejaebeom/Dropbox/Developer/kotlin/study_2/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
@@ -42,9 +40,6 @@
             location="/Users/leejaebeom/Dropbox/Developer/kotlin/study_2/app/build/outputs/apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
         <artifact
-            location="/Users/leejaebeom/Dropbox/Developer/kotlin/study_2/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
             location="/Users/leejaebeom/Dropbox/Developer/kotlin/study_2/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
@@ -52,9 +47,6 @@
             type="SPLIT" />
         <artifact
             location="/Users/leejaebeom/Dropbox/Developer/kotlin/study_2/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/leejaebeom/Dropbox/Developer/kotlin/study_2/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
             location="/Users/leejaebeom/Dropbox/Developer/kotlin/study_2/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
@@ -68,39 +60,13 @@
         <artifact
             location="/Users/leejaebeom/Dropbox/Developer/kotlin/study_2/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1499620019454"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/leejaebeom/Dropbox/Developer/kotlin/study_2/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/leejaebeom/Dropbox/Developer/kotlin/study_2/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1499624465356"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/leejaebeom/Dropbox/Developer/kotlin/study_2/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
-        <artifact
-            location="/Users/leejaebeom/Dropbox/Developer/kotlin/study_2/app/build/outputs/apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1499625209072"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/leejaebeom/Dropbox/Developer/kotlin/study_2/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-    </build>
+        timestamp="1499673733665"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

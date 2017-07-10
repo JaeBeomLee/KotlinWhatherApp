@@ -252,6 +252,10 @@
         "source": "/Users/leejaebeom/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/ca7d868be5cf154f5cc13c7aa89fe0a6/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
+        "merged": "/Users/leejaebeom/Dropbox/Developer/kotlin/study_2/app/build/intermediates/res/merged/debug/layout_recycler_item.xml.flat",
+        "source": "/Users/leejaebeom/Dropbox/Developer/kotlin/study_2/app/src/main/res/layout/recycler_item.xml"
+    },
+    {
         "merged": "/Users/leejaebeom/Dropbox/Developer/kotlin/study_2/app/build/intermediates/res/merged/debug/drawable_abc_seekbar_track_material.xml.flat",
         "source": "/Users/leejaebeom/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/ca7d868be5cf154f5cc13c7aa89fe0a6/res/drawable/abc_seekbar_track_material.xml"
     },

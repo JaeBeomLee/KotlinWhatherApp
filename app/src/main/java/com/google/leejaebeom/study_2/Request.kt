@@ -34,7 +34,7 @@ class Request(val url : String){
 
 data class ForecastResult(val city: City, val list: List<Forecast?>)
 data class City(val city:String, val country:String, val village:String)
-data class Forecast(val date: String, val amWeatherCode:String, val amWeather:String, val pmWeatherCode:String, val pmWeather:String, val maxtemp:String, val mintemp:String)
+data class Forecast(val date: String, val amWeatherCode:String, val amWeather:String, val pmWeatherCode:String, val pmWeather:String, val maxTemp:String, val minTemp:String)
 
 /*  결과 예제
 * {
